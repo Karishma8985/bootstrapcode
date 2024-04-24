@@ -1,0 +1,24 @@
+    .container{
+    border: 2px solid grey;
+    }
+    .row{
+    border: 2px solid purple;
+    }
+    .col{
+    border: 2px solid green;
+    }
+
+    .pink{
+        background: pink;
+    }
+
+    .green{
+        background: green;
+    }
+
+    .orange{
+        background: orange;
+    }
+    .height{
+        height: 100px;
+    }

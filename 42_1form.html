@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style/class.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="py-3 text-center">Bootstrap Form Classes</h2>
+        <div class="row py-3">
+            <div class="col-md-6">
+                <!-- first form group for name -->
+                <div class="form-group">
+                    <label for="">Name</label>
+                    <input type="text" class=".form-control">
+                </div>
+                <!-- another form group for password -->
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="password" class="form-control">
+                    <!-- text-muted for light grey colored message for suggetions -->
+                    <small class="form-text text-muted">Your password must be 8-20 characters long</small>
+                </div>
+                <!-- another form group class -->
+                <div class="form-group">
+                    <label for="">Country</label>
+                    <select name="" id="" class="form-control">
+                        <option value="">India</option>
+                        <option value="">Nepal</option>
+                        <option value="">Shree Lanka</option>
+                        <option value="">Kenya</option>
+                        <option value="">U.A.E</option>
+                        <option value="">Bhutan</option>
+                    </select>
+                </div>
+                <!-- another form group -->
+                <div class="form-group">
+                    <label for="">Message</label>
+                    <textarea name="" class="form-control"></textarea>
+                </div>
+                <!-- for readonly -->
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="text" value="abc@gmail.com" class="form-control-plaintext" readonly>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- for file uploading -->
+                <div class="form-group">
+                    <label for="">File Upload</label>
+                    <input type="file" class="form-control-file">
+                </div>
+                <!-- for range setting -->
+                <div class="form-group">
+                    <label for="">Amount</label>
+                    <input type="range" class="from-control-range">
+                </div>
+                <!-- for checkbox -->
+                <div class="form-group">
+                    <label for="">Hobbies</label>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="musicCheck">
+                        <label for="musicCheck" class="form-check-label">Music</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="sportsCheck">
+                        <label for="sportsCheck" class="form-check-label">Sports</label>
+                    </div>
+                    <!-- for disabled checkbox -->
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="sportsCheck">
+                        <label for="bookCheck" class="form-check-label">Books</label>
+                    </div>
+                </div>
+                <!-- for radio -->
+                <div class="form-group">
+                    <label for="">Gender</label>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="gender" id="maleradio">
+                        <label for="maleradio" class="form-check-label">Male</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="gender" id="femaleradio">
+                        <label for="femaleradio" class="form-check-label">Female</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

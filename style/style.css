@@ -1,0 +1,25 @@
+/* Style.css  */
+.container {
+    border: 2px solid grey;
+}
+
+.row {
+    border: 2px solid purple;
+    height: 200px;
+}
+
+.orange {
+    background: orange;
+}
+
+.col {
+    border: 2px solid green;
+}
+
+.pink {
+    background: pink;
+}
+
+.green {
+    background: lightgreen;
+}

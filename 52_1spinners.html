@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial- scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+        .row {
+            border: 2px solid grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="py-3 text-center">Bootstrap Spinner Classes</h2>
+        <div class="row py-5">
+            <div class="col">
+                <h5>Html</h5>
+                <div class="spinner-border text-primary"></div>
+                <div class="spinner-border text-success"></div>
+                <div class="spinner-border text-danger"></div>
+                <div class="spinner-border text-info"></div>
+                <div class="spinner-border text-dark"></div> <!-- for small size -->
+                <div class="spinner-border spinner-border-sm text- danger"></div> <!-- for big size -->
+                <div class="spinner-border text-danger" style="width:80px;height:80px"></div>
+            </div>
+        </div> <!-- grow method -->
+        <div class="row py-5">
+            <div class="col">
+                <div class="spinner-grow text-primary"></div>
+                <div class="spinner-grow text-success"></div>
+                <div class="spinner-grow text-danger"></div>
+                <div class="spinner-grow text-info"></div>
+                <div class="spinner-grow text-dark"></div> <!-- for small size -->
+                <div class="spinner-grow text-danger spinner-grow- sm"></div> <!-- for big size -->
+                <div class="spinner-grow text-danger" style="width:80px;height:80px"></div>
+            </div>
+        </div> <!-- for button -->
+        <div class="row py-5">
+            <div class="col">
+                <button class="btn btn-primary" disabled><span class="spinner-border spinner-border- sm"></span>
+                    loading...</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

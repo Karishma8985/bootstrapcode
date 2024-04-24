@@ -1,0 +1,27 @@
+.container{
+    border:2px solid grey;
+}
+
+.row{
+    border: 2px solid purple;
+}
+
+.col-12{
+    border: 2px solid green;
+    background: lightgreen;
+}
+
+.col-md-8{
+    border: 2px solid hotpink;
+    background: lightpink;
+}
+
+.col-md-4{
+    border: 2px solid salmon;
+    background: salmon;
+}
+
+.col-12 ul li{
+    display: inline-block;
+    padding: 10px;
+}
